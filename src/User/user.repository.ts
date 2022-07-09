@@ -23,9 +23,9 @@ export class UserRepository {
     return await this.UserModel.findOneAndUpdate(userquery);
   }
 
-  async deleteUser(userFilterQuery: FilterQuery<User>): Promise<void> {
-    return await this.UserModel.deleteOne(userFilterQuery);
-  }
+  // async deleteUser(userFilterQuery: FilterQuery<User>): Promise<void> {
+  //   return await this.UserModel.deleteOne(userFilterQuery);
+  // }
 }
 
 // userFilterQuery: FilterQuery<User>
